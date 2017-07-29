@@ -1,0 +1,29 @@
+{
+    "name": "bamboo/lumen-routes-family",
+    "license": "MIT",
+    "description": "Lumen Route Family",
+    "keywords": [
+        "lumen",
+        "route list"
+    ],
+    "authors": [
+    {
+        "name": "Sina Salmani",
+        "email": "salmani.sina@gmail.com",
+        "homepage": "http://www.bamboosys.com"
+    }],
+    "require":
+    {
+        "Laravel/Luemn": ">=5.0",
+        "Bamboo/ArrayFields": ">=0.1",
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Bamboo\\Lumen\\Routes\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
